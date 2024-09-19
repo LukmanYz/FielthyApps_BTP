@@ -378,100 +378,100 @@
 
 
             <LinearLayout
-            android:layout_width="234dp"
-            android:layout_height="95dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/bg_input_text"
-            android:elevation="3dp"
-            android:orientation="horizontal">
-
-            <View
-                android:id="@+id/indikator_keempat"
-                android:layout_width="10dp"
+                android:layout_width="234dp"
                 android:layout_height="95dp"
-                android:background="@color/red" />
-
-            <TextView
-                android:id="@+id/tV_indikator_kolestrol"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_input_text"
+                android:elevation="3dp"
+                android:orientation="horizontal">
 
-                android:text="Anda Menderita Obesitas"
-                android:textColor="@color/black"
-                android:textSize="10sp" />
+                <View
+                    android:id="@+id/indikator_keempat"
+                    android:layout_width="10dp"
+                    android:layout_height="95dp"
+                    android:background="@color/red" />
+
+                <TextView
+                    android:id="@+id/tV_indikator_kolestrol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+
+                    android:text="Anda Menderita Obesitas"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
         </LinearLayout>
 
-        </LinearLayout>
+        <!--        <LinearLayout-->
+        <!--            android:id="@+id/LL_laporan_ptm"-->
+        <!--            android:layout_width="294dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="16dp"-->
+        <!--            android:background="@drawable/bg_input_text"-->
+        <!--            android:elevation="2dp"-->
+        <!--            android:orientation="vertical"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/LL_ptm_merah">-->
 
-<!--        <LinearLayout-->
-<!--            android:id="@+id/LL_laporan_ptm"-->
-<!--            android:layout_width="294dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginTop="16dp"-->
-<!--            android:background="@drawable/bg_input_text"-->
-<!--            android:elevation="2dp"-->
-<!--            android:orientation="vertical"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toBottomOf="@+id/LL_ptm_merah">-->
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginLeft="20dp"-->
-<!--                android:layout_marginTop="10dp"-->
-<!--                -->
-<!--                android:text="Interpretasi PTM"-->
-<!--                android:textColor="@color/green"-->
-<!--                android:textSize="14sp" />-->
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="20dp"-->
+        <!--                android:layout_marginTop="10dp"-->
+        <!--                -->
+        <!--                android:text="Interpretasi PTM"-->
+        <!--                android:textColor="@color/green"-->
+        <!--                android:textSize="14sp" />-->
 
 
-<!--            <TextView-->
-<!--                android:layout_width="238dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginLeft="20dp"-->
-<!--                android:layout_marginTop="10dp"-->
-<!--                -->
-<!--                android:text="Dibawah ini adalah prediksi tentang seberapa tinggi resiko anda terkena Penyakit Tidak Menular."-->
-<!--                android:textColor="@color/grey"-->
-<!--                android:textSize="12sp" />-->
+        <!--            <TextView-->
+        <!--                android:layout_width="238dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="20dp"-->
+        <!--                android:layout_marginTop="10dp"-->
+        <!--                -->
+        <!--                android:text="Dibawah ini adalah prediksi tentang seberapa tinggi resiko anda terkena Penyakit Tidak Menular."-->
+        <!--                android:textColor="@color/grey"-->
+        <!--                android:textSize="12sp" />-->
 
 
-<!--            <TextView-->
-<!--                android:layout_width="238dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_gravity="center"-->
-<!--                android:layout_marginTop="10dp"-->
-<!--                -->
-<!--                android:text="Kemungkinan Anda Terkena PTM adalah"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textSize="12sp" />-->
+        <!--            <TextView-->
+        <!--                android:layout_width="238dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_gravity="center"-->
+        <!--                android:layout_marginTop="10dp"-->
+        <!--                -->
+        <!--                android:text="Kemungkinan Anda Terkena PTM adalah"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="12sp" />-->
 
 
-<!--            <TextView-->
-<!--                android:id="@+id/tV_kategori_ptm"-->
-<!--                android:layout_width="238dp"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_gravity="center"-->
-<!--                android:layout_marginTop="10dp"-->
-<!--                -->
-<!--                android:text="RENDAH"-->
-<!--                android:textAlignment="center"-->
-<!--                android:textColor="@color/green"-->
-<!--                android:textSize="18sp" />-->
+        <!--            <TextView-->
+        <!--                android:id="@+id/tV_kategori_ptm"-->
+        <!--                android:layout_width="238dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_gravity="center"-->
+        <!--                android:layout_marginTop="10dp"-->
+        <!--                -->
+        <!--                android:text="RENDAH"-->
+        <!--                android:textAlignment="center"-->
+        <!--                android:textColor="@color/green"-->
+        <!--                android:textSize="18sp" />-->
 
 
-<!--&lt;!&ndash;            <ImageView&ndash;&gt;-->
-<!--&lt;!&ndash;                android:id="@+id/iV_emot"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_width="72dp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_height="72dp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_gravity="center"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:layout_marginTop="10dp"&ndash;&gt;-->
-<!--&lt;!&ndash;                android:src="@drawable/emot_smile" />&ndash;&gt;-->
-<!--        </LinearLayout>-->
+        <!--&lt;!&ndash;            <ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:id="@+id/iV_emot"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_width="72dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_height="72dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_marginTop="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:src="@drawable/emot_smile" />&ndash;&gt;-->
+        <!--        </LinearLayout>-->
 
 
         <Button

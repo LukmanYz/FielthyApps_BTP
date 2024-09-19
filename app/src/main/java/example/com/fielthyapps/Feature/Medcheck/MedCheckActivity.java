@@ -32,15 +32,15 @@ import example.com.fielthyapps.HomeActivity;
 import example.com.fielthyapps.R;
 
 public class MedCheckActivity extends AppCompatActivity {
-private Button btn_lanjut;
-private FirebaseAuth firebaseAuth;
+    private Button btn_lanjut;
+    private FirebaseAuth firebaseAuth;
 
-private FirebaseFirestore fStore;
-private FirebaseUser currentUser;
-private ProgressDialog mLoading;
-private EditText eT_berat,eT_tinggi,et_lingkarperut,eT_sistolik,eT_diastolik,eT_guladarah,eT_lemakk;
-private String berat,tinggi,lingkar_perut,sistolik,diastolik,guladarah,lemak,indikator,gender;
-private ImageView iV_back;
+    private FirebaseFirestore fStore;
+    private FirebaseUser currentUser;
+    private ProgressDialog mLoading;
+    private EditText eT_berat,eT_tinggi,et_lingkarperut,eT_sistolik,eT_diastolik,eT_guladarah,eT_lemakk;
+    private String berat,tinggi,lingkar_perut,sistolik,diastolik,guladarah,lemak,indikator,gender;
+    private ImageView iV_back;
     String formattedDate;
 
 
@@ -63,7 +63,7 @@ private ImageView iV_back;
         mLoading = new ProgressDialog(this);
         mLoading.setMessage("Please Wait..");
 
-         currentUser = firebaseAuth.getCurrentUser();
+        currentUser = firebaseAuth.getCurrentUser();
         checkUserData();
 
         iV_back.setOnClickListener(new View.OnClickListener() {

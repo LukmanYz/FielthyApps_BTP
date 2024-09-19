@@ -124,86 +124,131 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout11">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="Hasil Pemeriksaan"
-            android:textColor="@color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Hasil Pemeriksaan"
+                    android:textColor="@color/black" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="23dp"
-            android:layout_marginTop="10dp"
-            android:text="6MWT avg Speed"
-            android:textColor="#2BA978"
-            android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="10dp"
+                    android:text="6MWT avg Speed"
+                    android:textColor="#2BA978"
+                    android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/tV_avg_speeed"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:text="160 km/H"
-            android:textColor="@color/black"
-            android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/tV_avg_speeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="160 km/H"
+                    android:textColor="@color/red"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/pj_avg_speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="avg speed adalah kecepatan rata-rata saat tes Balke atau 6MWT."
+                    android:textColor="@color/black"
+                    android:textSize="10sp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="23dp"
-            android:layout_marginTop="10dp"
-            android:text="VO2Max"
-            android:textColor="#2BA978"
-            android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="10dp"
+                    android:text="VO2Max"
+                    android:textColor="#2BA978"
+                    android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/tV_Vomax"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:text="160 km/H"
-            android:textColor="@color/black"
-            android:textSize="10sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="23dp"
-            android:layout_marginTop="10dp"
-            android:text="METS"
-            android:textColor="#2BA978"
-            android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/tV_Vomax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="160 km/H"
+                    android:textColor="@color/red"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/pjVomax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="VO2Max adalah volume oksigen maksimal yang diproses tubuh saat aktivitas intensif."
+                    android:textColor="@color/black"
+                    android:textSize="10sp"/>
 
-        <TextView
-            android:id="@+id/tV_mets"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:text="160 km/H"
-            android:textColor="@color/black"
-            android:textSize="10sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="23dp"
-            android:layout_marginTop="10dp"
-            android:text="Intensitas Latihan"
-            android:textColor="#2BA978"
-            android:textSize="12sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="10dp"
+                    android:text="METS"
+                    android:textColor="#2BA978"
+                    android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/tV_intensitas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:text="160 km/H"
-            android:textColor="@color/black"
-            android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/tV_mets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="160 km/H"
+                    android:textColor="@color/red"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/pjMets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="METs adalah rasio tingkat metabolisme kerja terhadap tingkat metabolisme istirahat."
+                    android:textColor="@color/black"
+                    android:textSize="10sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Intensitas Latihan"
+                    android:textColor="#2BA978"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tV_intensitas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="160 km/H"
+                    android:textColor="@color/red"
+                    android:textSize="10sp" />
+                <TextView
+                    android:id="@+id/pjItensitas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="Intensitas Latihan adalah persentase kekuatan fisik maksimum yang digunakan tubuh saat beraktivitas."
+                    android:textColor="@color/black"
+                    android:textSize="10sp"/>
+            </LinearLayout>
+        </ScrollView>
 
     </LinearLayout>
 
@@ -271,6 +316,39 @@
             android:textSize="12sp" />
 
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout20"
+        android:layout_width="339dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_kategori_bugar"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout19">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Kategori Intensitas Latihan"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="1. &lt;3 = Ringan \n 2. 3-6 = Sedang \n 3. &gt;6 = Berat"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
 
     <TextView
         android:id="@+id/textViewResult"

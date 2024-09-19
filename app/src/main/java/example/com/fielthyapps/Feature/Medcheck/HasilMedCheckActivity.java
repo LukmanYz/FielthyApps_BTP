@@ -22,9 +22,9 @@ import example.com.fielthyapps.HomeActivity;
 import example.com.fielthyapps.R;
 
 public class HasilMedCheckActivity extends AppCompatActivity {
-private TextView imt,lingkarperut,tekanandarah,guladarah,lemak,tV_indikator_tekanan,tV_indikator_gula,tV_indikator_imt,tV_kategori_ptm,tV_indikator_kolestrol;
-private String status,date,uid,id,get_berat,get_tinggi,get_lingkar_perut,get_sistolik,get_diastolik,get_lemak,get_guladarah,get_bmi,get_gender;
-private Button btn_selesai;
+    private TextView imt,lingkarperut,tekanandarah,guladarah,lemak,tV_indikator_tekanan,tV_indikator_gula,tV_indikator_imt,tV_kategori_ptm,tV_indikator_kolestrol;
+    private String status,date,uid,id,get_berat,get_tinggi,get_lingkar_perut,get_sistolik,get_diastolik,get_lemak,get_guladarah,get_bmi,get_gender;
+    private Button btn_selesai;
 
     @Override
     public void onBackPressed() {
@@ -213,7 +213,7 @@ private Button btn_selesai;
 
             }
 
-            
+
 
             if (edu_sistolik < 130 && edu_diastolik <= 84) {
                 ket_darah = "Normal";
@@ -222,7 +222,7 @@ private Button btn_selesai;
                         "\n2. Olahraga Aerobik teratur setidaknya 150 menit/minggu" +
                         "\n3. Hindari merokok dan alkohol berlebihan" +
                         "\n4. Lakukan pengecekan darah kembali setidaknya 1 tahun sekali");
-                
+
             } else if (edu_sistolik <= 139 &&  edu_diastolik <= 89) {
                 ket_darah = "Berisiko";
                 tV_indikator_tekanan.setText("Tekanan Darah Anda Beresiko Hipertensi" +
